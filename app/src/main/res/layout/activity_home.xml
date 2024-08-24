@@ -6,15 +6,61 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:orientation="vertical"
     tools:context=".HomeActivity">
 
-
-    <ImageView
-        android:id="@+id/imageView"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scaleType="fitCenter"
-        android:src="@drawable/steps"/>
+        android:text="@string/personalized_impact_of_lifestyle_factors"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nunito_bold"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B0C4FC"
+            android:layout_gravity="top"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/recommendation"
+                android:padding="10dp"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/analysis_txt"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/nunito_regular"/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/steps"/>
+
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

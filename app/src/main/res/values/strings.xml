@@ -3,4 +3,7 @@
     <string name="sign_in">Sign In</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
+    <string name="personalized_impact_of_lifestyle_factors">Personalized Impact of Lifestyle Factors</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="analysis_txt">Our analysis shows your BP is related to your daily number of steps. This week, foucs on increasing your daily step count. Regular physical activity helps to lower blood pressure.</string>
 </resources>

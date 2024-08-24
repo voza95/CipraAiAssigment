@@ -108,7 +108,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:text="@string/sign_in"
-            app:cornerRadius="4dp" />
+            android:textColor="@color/white"
+            android:backgroundTint="@color/button"
+            android:fontFamily="@font/nunito_bold"
+            app:cornerRadius="6dp" />
 
     </LinearLayout>
 
